@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8317f1c219a5e03468904ba6bb86e139
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - answerCanvas: {fileID: 1885132378953900, guid: 4efa9b70298f31e44aacbe2492370330,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
