@@ -34,10 +34,10 @@ public class MyAdCenter
     private void AdStart()
     {
 #if UNITY_ANDROID
-        string appId = "ca-app-pub-5352945085001350~5895921481";
+        string appId = "AdID"; // "ca-app-pub-5352945085001350~5895921481";
 
 #elif UNITY_IPHONE
-        string appId = "ca-app-pub-5352945085001350~5895921481";
+        string appId =  "" // "ca-app-pub-5352945085001350~5895921481";
 
 #else
         string appId = "unexpected_platform";
@@ -49,7 +49,7 @@ public class MyAdCenter
 
     private void IAdLoad()
     {
-        string adId = "ca-app-pub-5352945085001350/1638209754";
+        string adId = "AdId"; // "ca-app-pub-5352945085001350/1638209754";
         id = new InterstitialAd(adId);
         id.LoadAd(new AdRequest.Builder().Build());
     }
